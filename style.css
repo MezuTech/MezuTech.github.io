@@ -38,7 +38,7 @@ body {
   stroke: #4BB543;
   stroke-miterlimit: 10;
   margin: 10px auto;
-  box-shadow: inset 0px 0px 0px #4BB543;
+  box-shadow: inset 0px 0px 0px #4BB543, 0 0 0 5px white;
   animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
 }
 
