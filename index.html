@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Verification</title>
+    <title>Email Verified | Welcome Back</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="checkmark-circle">
-            <div class="checkmark draw"></div>
+    <main class="container">
+        <div class="card">
+            <div class="icon-wrapper">
+                <div class="checkmark-circle">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark-circle-bg" cx="26" cy="26" r="25" fill="none"/>
+                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                    </svg>
+                </div>
+            </div>
+            <h1>Email Verified!</h1>
+            <p>Your email address has been successfully verified. You're all set to explore everything we have to offer.</p>
+            <div class="instruction-box">
+                <p class="instruction-text">Please open the app and login to continue.</p>
+            </div>
+            <div class="footer">
+                <p>You can now safely close this window.</p>
+            </div>
         </div>
-        <h1>Verified!</h1>
-        <p>You have successfully verified your Email adress you can now login</p>
-    </div>
+    </main>
 </body>
 </html>
